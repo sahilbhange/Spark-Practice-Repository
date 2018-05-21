@@ -14,5 +14,3 @@ drwxr-xr-x   - sahilbhange hdfs          0 2018-05-16 21:31 /user/sahilbhange/da
 
 
 
-
-
