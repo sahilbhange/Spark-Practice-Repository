@@ -1,7 +1,10 @@
+Output File Data in JSON format
 [sahilbhange@gw02 ~]$ hadoop fs -text /user/sahilbhange/output/crimes/top_3_crime_types/part-r-00000-47b05458-c78f-4517-97ac-acafc1a29775
 {"Crime Type":"BATTERY","Number of Incidents":275176}
 {"Crime Type":"BURGLARY","Number of Incidents":194754}
 {"Crime Type":"OTHER OFFENSE","Number of Incidents":188079}
+
+Input File data
 [sahilbhange@gw02 ~]$ hadoop fs -text /user/sahilbhange/data/crime/csv/crime_data.csv |head
 ID,Case Number,Date,Block,IUCR,Primary Type,Description,Location Description,Arrest,Domestic,Beat,District,Ward,Community Area,FBI Code,X Coordinate,Y Coordinate,Year,Updated On,Latitude,Longitude,Location
 5679862,HN487108,07/24/2007 10:11:00 PM,054XX S ABERDEEN ST,1320,CRIMINAL DAMAGE,TO VEHICLE,STREET,false,false,0934,009,16,61,14,1169912,1868555,2007,04/15/2016 08:55:02 AM,41.794811309,-87.652466989,"(41.794811309, -87.652466989)"
